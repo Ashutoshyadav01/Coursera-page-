@@ -1,13 +1,175 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   gap: 60px;
+   margin-left:  63px; 
+   margin-top: 50px;
+   border-bottom: 1px solid grey;
+   padding-bottom: 12px;
+
+}
+.cont-6-2 #h1-6{
+font-weight:600px ;
+}
+.cont-6-2 h1{
+   text-decoration: double;
+}
+.Component6{
+    margin-left: 63px;
+    margin-right: 63px;
+    height: 300px;
+}
+.com-6 h1{
+    font-size: 26px;
+}
+.cont-6-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+   
+}
+.com-6{
+    display: flex;
+    justify-content: space-between;
+}
+.Component5{
+    height: 400px;
+}
+.Content-4{
+    margin-left: 63px;
+    border: 1px solid grey;
+    height: 150px;
+    border-width: thin;
+}
+.main-content4{
+   margin-right: 50px;
+    height: 200px
+    
+}
+.com-5{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 63px;
+    margin-right: 63px;
+   
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.com-5-2 h1{
+    font-size: larger;
+    font-weight: 700;
+}
+#head-5{
+    font-size: 27px;
+}
+#com-5-1{
+    margin-top:60px;
+}
+.com-5 ul li{
+    list-style-type: circle;
+}
+.com-5-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+   
+}
+.details-com-5{
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.Cont-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    align-items: center;
+   
+   
+}
+#cont-head{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content1-main{
+  margin-left: 60px;
+}
+.nav-bar li:hover{
+    color:#A020F0CC ;
+    cursor: pointer;
+    
+}
+.cont-6-2-1{
+    margin-top: 5px;
+}
+.nav-bar{
+}
+.div2{
+    position: sticky;
+    top:0px;
+}
+#cont-image{
+   width: 400px;
+}
+.content1{
+    display: flex;
+   list-style: none;
+    gap: 30px;
+    padding-top: 40px;
+}
+.wul2{
+    font-weight: 700;
+    font-size: large;
+    margin-top: 30px;
+}
+.wul{
+    font-weight: 700;
+    font-size: large;
+    margin-top: 30px;
+}
+.content1 li::before{
+    content:'\2713';
+    margin-right: 40px;
+   
+    font-weight:900;
+}
+.content2-div1
+{
+    display: flex;
+    gap: 40px;
+}
+.content2-div2
+{
+    display: flex;
+    gap: 40px;
+}
+.cont-2{
+    margin-left: 50px;
+    height: 150px;
+}
+.Content-3{
+    display: flex;
+    gap: 150px;
+}
+.content2-div2 div{
+    background-color:#D3D3D3; 
+    margin-top: 10px;
+}
+.content2-div1 div{
+    background-color:#D3D3D3; 
+    margin-top: 10px;
+}
+.cont-3{
+    margin-left: 63px;
+    height: 200px;
 }
